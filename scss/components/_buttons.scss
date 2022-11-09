@@ -1,0 +1,30 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+
+.btn-rounded {
+    @include media-breakpoint-up(lg){
+        display: none;
+    }
+
+    position: relative;
+    margin-top: 300px;
+    margin-left: 100px;
+    padding: 0.9375rem 2.375rem 0.9375rem 2.25rem;
+    font-weight: 700;
+    
+    border: 0.1rem solid rgba($white,0.6);
+    background-color: $white;
+
+   
+
+    &:hover {
+        @include gradient;
+        color: $white;
+
+        span {
+            background-color: rgba($black,0.6);
+        }
+    }
+}

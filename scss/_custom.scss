@@ -1,0 +1,57 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/utilities";
+
+
+//My Theme Colors
+
+$primary:  #0d6efd ;
+
+$succes: #198754;
+
+
+// $body-bg : $white;
+
+
+//white and grey colors
+
+$white :    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+
+
+
+//green checkbox color
+$blue:    #0d6efd ;
+$green:   #198754;
+
+//border radius
+
+$border-radius: 0rem;
+
+//$blue-100: tint-color($blue, 80%) ;
+// $blue-200: tint-color($blue, 60%) ;
+// $blue-300: tint-color($blue, 40%) ;
+// $blue-400: tint-color($blue, 20%) ;
+// $blue-500: $blue !default;
+// $blue-600: shade-color($blue, 20%) ;
+// $blue-700: shade-color($blue, 40%) ;
+// $blue-800: shade-color($blue, 60%) ;
+// $blue-900: shade-color($blue, 80%) ;
+
+$theme-colors: (
+  "primary": $primary,
+  "success": $succes
+);
+
+
+//import bootstrap5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
